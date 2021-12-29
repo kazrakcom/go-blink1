@@ -1,3 +1,7 @@
+# About this fork
+
+This is a fork of the base hink code, with the mk3 fix applied.
+
 # Install libusb and libusb-compat (OSX Users)
 
 Before using this library on OSX, you'll need to install the libusb and libusb-compat libraries.
@@ -112,7 +116,7 @@ LED helper constants, used to target specific LED's on the sides of Blink(1).
 ```go
 package main
 
-import "github.com/hink/go-blink1"
+import "github.com/kazrakcom/go-blink1"
 
 func main() {
 
