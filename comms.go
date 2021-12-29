@@ -9,7 +9,7 @@ import "C"
 import (
 	"time"
 
-	"github.com/hink/go-blink1/libusb"
+	"github.com/kazrakcom/go-blink1/libusb"
 )
 
 func fadeToRgbBlink1(device *Device, fadeTime time.Duration, red, green, blue, led uint8) (bytesWritten int) {

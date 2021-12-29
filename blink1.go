@@ -5,7 +5,7 @@ import (
 
 	"time"
 
-	"github.com/hink/go-blink1/libusb"
+	"github.com/kazrakcom/go-blink1/libusb"
 )
 
 // USB IDs
